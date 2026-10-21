@@ -7,7 +7,7 @@
 [![Supabase](https://img.shields.io/badge/Database-Supabase%20PostgreSQL-3ECF8E.svg)](https://supabase.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Demo Link**: [https://yatra-ai-planner.vercel.app](https://yatra-ai-planner.vercel.app)  
+**Demo Link**: [https://yatra-ai-planner.netlify.app](https://yatra-ai-planner.netlify.app)  
 **GitHub Link**: [https://github.com/placeholder/travel-itinerary-planner](https://github.com/placeholder/travel-itinerary-planner)
 
 ---
