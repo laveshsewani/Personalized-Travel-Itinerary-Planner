@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Demo Link**: [https://yatra-ai-planner.netlify.app](https://yatra-ai-planner.netlify.app)  
-**GitHub Link**: [https://github.com/placeholder/travel-itinerary-planner](https://github.com/placeholder/travel-itinerary-planner)
+**GitHub Link**: [https://github.com/laveshsewani/Personalized-Travel-Itinerary-Planner](https://github.com/laveshsewani/Personalized-Travel-Itinerary-Planner)
 
 ---
 
