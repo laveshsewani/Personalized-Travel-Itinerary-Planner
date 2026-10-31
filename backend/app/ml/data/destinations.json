@@ -1,0 +1,667 @@
+{
+  "destinations": [
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "tags": ["culture", "sightseeing", "shopping", "food", "heritage"],
+      "center": {"lat": 26.9124, "lng": 75.7873},
+      "attractions": [
+        {
+          "name": "Amber Fort & Palace",
+          "category": "heritage",
+          "tags": ["culture", "sightseeing", "history"],
+          "lat": 26.9855,
+          "lng": 75.8513,
+          "estimated_cost": 500,
+          "duration_min": 180,
+          "best_time": "Morning (08:30 - 11:30)",
+          "description": "Hilltop fort with ornate courtyards, cobblestone paths, and the mesmerizing Sheesh Mahal."
+        },
+        {
+          "name": "City Palace & Museum",
+          "category": "heritage",
+          "tags": ["culture", "sightseeing"],
+          "lat": 26.9258,
+          "lng": 75.8237,
+          "estimated_cost": 700,
+          "duration_min": 150,
+          "best_time": "Morning or Afternoon",
+          "description": "A stunning blend of Rajasthani and Mughal architecture with preserved royal courtyards and weaponry galleries."
+        },
+        {
+          "name": "Jantar Mantar",
+          "category": "monument",
+          "tags": ["culture", "sightseeing", "science"],
+          "lat": 26.9248,
+          "lng": 75.8246,
+          "estimated_cost": 200,
+          "duration_min": 90,
+          "best_time": "Midday",
+          "description": "UNESCO World Heritage collection of nineteen architectural astronomical instruments built by Maharaja Jai Singh II."
+        },
+        {
+          "name": "Hawa Mahal & Bapu Bazaar",
+          "category": "shopping",
+          "tags": ["shopping", "sightseeing", "culture"],
+          "lat": 26.9239,
+          "lng": 75.8267,
+          "estimated_cost": 250,
+          "duration_min": 120,
+          "best_time": "Late Afternoon",
+          "description": "High honeycomb screen wall of pink sandstone built for royal women; explore nearby colorful bazaar lanes."
+        },
+        {
+          "name": "Nahargarh Fort Sunset Viewpoint",
+          "category": "viewpoint",
+          "tags": ["nature", "sightseeing", "relaxation"],
+          "lat": 26.9372,
+          "lng": 75.8155,
+          "estimated_cost": 100,
+          "duration_min": 120,
+          "best_time": "Evening (17:00 - 19:30)",
+          "description": "Stunning ridge overlooking the entire Pink City skyline during golden hour."
+        }
+      ],
+      "dining": [
+        {
+          "name": "Laxmi Misthan Bhandar (LMB)",
+          "cuisine": "Rajasthani Traditional",
+          "tags": ["food", "culture"],
+          "price_level": "mid",
+          "estimated_cost": 850,
+          "vegetarian_friendly": true,
+          "signature_dish": "Royal Rajasthani Thali & Ghewar",
+          "lat": 26.9197,
+          "lng": 75.8242,
+          "description": "Legendary sweetshop and restaurant inside old walled city serving Ghewar and Dal Baati Churma."
+        },
+        {
+          "name": "1135 AD Amber",
+          "cuisine": "Royal Mughlai & Rajputana",
+          "tags": ["food", "luxury"],
+          "price_level": "premium",
+          "estimated_cost": 2200,
+          "vegetarian_friendly": true,
+          "signature_dish": "Laal Maas / Paneer Keshariya",
+          "lat": 26.9850,
+          "lng": 75.8500,
+          "description": "Fine-dining inside Amber Fort ramparts with antique chandeliers and silver cutlery."
+        },
+        {
+          "name": "Rawat Mishthan Bhandar",
+          "cuisine": "Street Food & Snacks",
+          "tags": ["food", "streetfood"],
+          "price_level": "budget",
+          "estimated_cost": 250,
+          "vegetarian_friendly": true,
+          "signature_dish": "Hot Pyaaz Kachori & Lassi",
+          "lat": 26.9218,
+          "lng": 75.7958,
+          "description": "Famous station-side stop for piping-hot onion kachoris and rich creamy lassi."
+        }
+      ],
+      "stays": [
+        {
+          "name": "Zostel Jaipur",
+          "type": "hostel",
+          "price_category": "budget",
+          "estimated_cost_per_night": 950,
+          "amenities": ["Free WiFi", "Rooftop Cafe", "Social Events", "Air Conditioning"],
+          "lat": 26.9220,
+          "lng": 75.8300
+        },
+        {
+          "name": "Shahpura House Heritage Hotel",
+          "type": "hotel",
+          "price_category": "mid",
+          "estimated_cost_per_night": 4500,
+          "amenities": ["Swimming Pool", "Heritage Decor", "Breakfast Included", "Courtyard"],
+          "lat": 26.9281,
+          "lng": 75.7933
+        },
+        {
+          "name": "The Rambagh Palace",
+          "type": "heritage",
+          "price_category": "premium",
+          "estimated_cost_per_night": 32000,
+          "amenities": ["Royal Butler", "Spa", "Historic Gardens", "Marble Suites"],
+          "lat": 26.8978,
+          "lng": 75.8081
+        }
+      ],
+      "transport": [
+        {
+          "type": "Auto-Rickshaw",
+          "estimated_cost_base": 120,
+          "description": "Great for navigating narrow bazaar lanes; bargain or use pre-paid stands.",
+          "tip": "Agree on fare beforehand or use meter/app."
+        },
+        {
+          "type": "App Cabs (Ola/Uber)",
+          "estimated_cost_base": 280,
+          "description": "Air-conditioned travel for longer distances like Amber Fort and Nahargarh.",
+          "tip": "Book return cab early from Nahargarh hilltop."
+        },
+        {
+          "type": "Jaipur Metro",
+          "estimated_cost_base": 30,
+          "description": "Fast air-conditioned link from Railway Station to Chandpole (walled city).",
+          "tip": "Very economical for solo and budget travelers."
+        }
+      ]
+    },
+    {
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "tags": ["culture", "nature", "sightseeing", "food", "relaxation"],
+      "center": {"lat": 23.2599, "lng": 77.4126},
+      "attractions": [
+        {
+          "name": "Upper Lake (Bhojtal) & Boat Club",
+          "category": "nature",
+          "tags": ["nature", "relaxation", "adventure"],
+          "lat": 23.2435,
+          "lng": 77.3820,
+          "estimated_cost": 200,
+          "duration_min": 120,
+          "best_time": "Sunset (16:30 - 18:30)",
+          "description": "One of India's oldest man-made lakes, ideal for motor boating, paddle boating, and tranquil promenade walks."
+        },
+        {
+          "name": "Van Vihar National Park",
+          "category": "nature",
+          "tags": ["nature", "adventure", "wildlife"],
+          "lat": 23.2272,
+          "lng": 77.3734,
+          "estimated_cost": 50,
+          "duration_min": 180,
+          "best_time": "Morning (07:00 - 10:00)",
+          "description": "Open zoological park on lake shores; rent a bicycle and spot tigers, deer, and migratory birds in natural habitats."
+        },
+        {
+          "name": "Tribal Museum Bhopal",
+          "category": "museum",
+          "tags": ["culture", "sightseeing"],
+          "lat": 23.2323,
+          "lng": 77.3916,
+          "estimated_cost": 30,
+          "duration_min": 150,
+          "best_time": "Afternoon",
+          "description": "Acclaimed experiential museum showcasing life-sized indigenous art, rituals, and architecture of MP tribes."
+        },
+        {
+          "name": "Taj-ul-Masajid",
+          "category": "heritage",
+          "tags": ["culture", "sightseeing", "history"],
+          "lat": 23.2662,
+          "lng": 77.3929,
+          "estimated_cost": 0,
+          "duration_min": 75,
+          "best_time": "Early Morning or Afternoon",
+          "description": "One of Asia's largest mosques featuring towering pink minarets, massive domes, and a grand marble courtyard."
+        },
+        {
+          "name": "Sanchi Stupa Excursion",
+          "category": "heritage",
+          "tags": ["culture", "sightseeing", "history"],
+          "lat": 23.4795,
+          "lng": 77.7397,
+          "estimated_cost": 40,
+          "duration_min": 240,
+          "best_time": "Day excursion (45 km from city)",
+          "description": "UNESCO World Heritage 3rd-century BCE Buddhist complex founded by Emperor Ashoka with intricate stone toranas."
+        }
+      ],
+      "dining": [
+        {
+          "name": "Chatori Gali (Old Bhopal)",
+          "cuisine": "Bhopali Street Food & Kebabs",
+          "tags": ["food", "culture"],
+          "price_level": "budget",
+          "estimated_cost": 300,
+          "vegetarian_friendly": true,
+          "signature_dish": "Bhopali Gosht Korma, Poha Jalebi & Sulaimani Chai",
+          "lat": 23.2612,
+          "lng": 77.4042,
+          "description": "Vibrant food street inside the heritage quarter famous for melt-in-mouth delicacies and spiced tea."
+        },
+        {
+          "name": "Under The Mango Tree (Jehan Numa Palace)",
+          "cuisine": "North Indian & Mughlai",
+          "tags": ["food", "luxury"],
+          "price_level": "premium",
+          "estimated_cost": 2100,
+          "vegetarian_friendly": true,
+          "signature_dish": "Bhopali Rizzala & Mughlai Platter",
+          "lat": 23.2374,
+          "lng": 77.3905,
+          "description": "Open-air courtyard dining under an ancient mango tree in a heritage palace property."
+        },
+        {
+          "name": "Manohar Dairy & Restaurant",
+          "cuisine": "Vegetarian & Sweets",
+          "tags": ["food", "budget"],
+          "price_level": "budget",
+          "estimated_cost": 350,
+          "vegetarian_friendly": true,
+          "signature_dish": "Chole Bhature & Rasmalai",
+          "lat": 23.2332,
+          "lng": 77.4285,
+          "description": "Bhopal's most beloved multi-generation vegetarian institution for breakfast, lunch, and fresh mithai."
+        }
+      ],
+      "stays": [
+        {
+          "name": "Jehan Numa Palace Hotel",
+          "type": "heritage",
+          "price_category": "premium",
+          "estimated_cost_per_night": 11500,
+          "amenities": ["Colonial Architecture", "Spa", "Pool", "Equestrian Track"],
+          "lat": 23.2374,
+          "lng": 77.3905
+        },
+        {
+          "name": "Noor-Us-Sabah Palace",
+          "type": "heritage",
+          "price_category": "mid",
+          "estimated_cost_per_night": 5200,
+          "amenities": ["Panoramic Lake View", "Terrace Restaurant", "Gardens"],
+          "lat": 23.2798,
+          "lng": 77.3821
+        },
+        {
+          "name": "Bhopal Lakeview Homestay / Zostel",
+          "type": "hostel",
+          "price_category": "budget",
+          "estimated_cost_per_night": 900,
+          "amenities": ["Free WiFi", "Community Lounge", "Lake Proximity"],
+          "lat": 23.2450,
+          "lng": 77.3860
+        }
+      ],
+      "transport": [
+        {
+          "type": "Shared & Private Auto-Rickshaws",
+          "estimated_cost_base": 80,
+          "description": "The quintessential Bhopal way to travel between Old City and New Market.",
+          "tip": "Share-autos run fixed routes between New Market and Old City for ₹15-20."
+        },
+        {
+          "type": "Bhopal BRTS (City Bus)",
+          "estimated_cost_base": 20,
+          "description": "Air-conditioned red buses connecting major junctions and universities.",
+          "tip": "Chalo card/app supported."
+        },
+        {
+          "type": "Cycle Rental at Van Vihar",
+          "estimated_cost_base": 40,
+          "description": "Eco-friendly scenic lakeside pedaling.",
+          "tip": "Carry photo ID at the park gate for bicycle issuance."
+        }
+      ]
+    },
+    {
+      "city": "Goa",
+      "state": "Goa",
+      "tags": ["adventure", "nightlife", "relaxation", "nature", "food"],
+      "center": {"lat": 15.2993, "lng": 74.1240},
+      "attractions": [
+        {
+          "name": "Palolem & Agonda Beach",
+          "category": "beach",
+          "tags": ["relaxation", "nature"],
+          "lat": 15.0100,
+          "lng": 74.0232,
+          "estimated_cost": 0,
+          "duration_min": 240,
+          "best_time": "Late Afternoon to Sunset",
+          "description": "Crescent-shaped golden sand beach with calm waters, coconut palms, and peaceful shacks in South Goa."
+        },
+        {
+          "name": "Dudhsagar Waterfalls Trek",
+          "category": "adventure",
+          "tags": ["adventure", "nature"],
+          "lat": 15.3144,
+          "lng": 74.3143,
+          "estimated_cost": 800,
+          "duration_min": 360,
+          "best_time": "Morning (07:30 - 14:00)",
+          "description": "Four-tiered majestic white-water cascade situated inside Bhagwan Mahavir Wildlife Sanctuary."
+        },
+        {
+          "name": "Fontainhas Latin Quarter Walking Tour",
+          "category": "culture",
+          "tags": ["culture", "sightseeing", "relaxation"],
+          "lat": 15.4989,
+          "lng": 73.8315,
+          "estimated_cost": 150,
+          "duration_min": 120,
+          "best_time": "Morning or Late Afternoon",
+          "description": "UNESCO-recognized vibrant Portuguese-style colonial quarter with pastel yellow houses and artisan cafes."
+        },
+        {
+          "name": "Anjuna Beach & Flea Market",
+          "category": "nightlife",
+          "tags": ["nightlife", "shopping", "food"],
+          "lat": 15.5807,
+          "lng": 73.7420,
+          "estimated_cost": 300,
+          "duration_min": 180,
+          "best_time": "Wednesday / Sunset",
+          "description": "Iconic North Goa bohemian hotspot for seaside music, handicrafts, and twilight sunsets."
+        }
+      ],
+      "dining": [
+        {
+          "name": "Fisherman's Wharf",
+          "cuisine": "Goan Seafood",
+          "tags": ["food", "relaxation"],
+          "price_level": "mid",
+          "estimated_cost": 1100,
+          "vegetarian_friendly": true,
+          "signature_dish": "Goan Fish Curry & Prawn Balchao",
+          "lat": 15.1565,
+          "lng": 73.9482,
+          "description": "Lakeside dining showcasing authentic Goan coconut gravies and freshly caught seafood."
+        },
+        {
+          "name": "Gunpowder (Assagao)",
+          "cuisine": "Coastal South Indian",
+          "tags": ["food", "culture"],
+          "price_level": "mid",
+          "estimated_cost": 1200,
+          "vegetarian_friendly": true,
+          "signature_dish": "Kerala Appam with Stew & Pandi Curry",
+          "lat": 15.5902,
+          "lng": 73.7744,
+          "description": "Sensational heritage courtyard restaurant serving fiery South Indian coastal recipes."
+        },
+        {
+          "name": "Vinayak Family Restaurant",
+          "cuisine": "Local Goan Thali",
+          "tags": ["food", "budget"],
+          "price_level": "budget",
+          "estimated_cost": 300,
+          "vegetarian_friendly": true,
+          "signature_dish": "Special Goan Fish / Veg Thali with Sol Kadhi",
+          "lat": 15.5873,
+          "lng": 73.7548,
+          "description": "Unpretentious local favorite overlooking paddy fields with affordable authentic seafood thalis."
+        }
+      ],
+      "stays": [
+        {
+          "name": "The Hosteller Goa / Zostel Morjim",
+          "type": "hostel",
+          "price_category": "budget",
+          "estimated_cost_per_night": 850,
+          "amenities": ["Pool", "Beach Walk", "Coworking Space", "Bar"],
+          "lat": 15.6174,
+          "lng": 73.7380
+        },
+        {
+          "name": "Santana Beach Resort (Candolim)",
+          "type": "resort",
+          "price_category": "mid",
+          "estimated_cost_per_night": 4200,
+          "amenities": ["2 Swimming Pools", "Direct Beach Access", "Tropical Garden"],
+          "lat": 15.5147,
+          "lng": 73.7667
+        },
+        {
+          "name": "Taj Exotica Resort & Spa (Benaulim)",
+          "type": "resort",
+          "price_category": "premium",
+          "estimated_cost_per_night": 24000,
+          "amenities": ["Private Beach", "Golf Course", "Ayurvedic Spa", "Fine Dining"],
+          "lat": 15.2443,
+          "lng": 73.9248
+        }
+      ],
+      "transport": [
+        {
+          "type": "Scooter / Bike Rental",
+          "estimated_cost_base": 400,
+          "description": "The quintessential Goa transport mode; helmet strictly required.",
+          "tip": "Fuel is available at local bottle stalls or petrol pumps; inspect vehicle brakes beforehand."
+        },
+        {
+          "type": "GoaMiles App Taxi",
+          "estimated_cost_base": 450,
+          "description": "Government-regulated app-based taxi service across North and South Goa.",
+          "tip": "Pre-booking from Dabolim or MOPA airport is recommended."
+        },
+        {
+          "type": "Kadamba Intercity AC Buses",
+          "estimated_cost_base": 60,
+          "description": "Connects Panaji, Margao, Mapusa, and Vasco quickly and cheaply.",
+          "tip": "Departs every 15 minutes from main bus terminals."
+        }
+      ]
+    },
+    {
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "tags": ["food", "culture", "sightseeing", "shopping"],
+      "center": {"lat": 22.7196, "lng": 75.8577},
+      "attractions": [
+        {
+          "name": "Rajwada Palace",
+          "category": "heritage",
+          "tags": ["culture", "sightseeing", "history"],
+          "lat": 22.7177,
+          "lng": 75.8546,
+          "estimated_cost": 20,
+          "duration_min": 90,
+          "best_time": "Afternoon to Sunset",
+          "description": "Historic seven-story palace of the Holkar dynasty blending Maratha, Mughal, and French styles."
+        },
+        {
+          "name": "Sarafa Bazaar Night Food Street",
+          "category": "streetfood",
+          "tags": ["food", "nightlife", "culture"],
+          "lat": 22.7180,
+          "lng": 75.8530,
+          "estimated_cost": 350,
+          "duration_min": 150,
+          "best_time": "Night (20:30 - 01:00)",
+          "description": "A jewelry market by day that turns into India's most celebrated street food haven by night."
+        },
+        {
+          "name": "Chappan Dukan (56 Shops)",
+          "category": "food",
+          "tags": ["food", "shopping"],
+          "lat": 22.7244,
+          "lng": 75.8839,
+          "estimated_cost": 250,
+          "duration_min": 120,
+          "best_time": "Evening (17:00 - 21:00)",
+          "description": "A bustling culinary strip of exactly 56 gourmet and traditional street food kiosks, including Johnny Hot Dog."
+        },
+        {
+          "name": "Lal Bagh Palace",
+          "category": "heritage",
+          "tags": ["culture", "sightseeing"],
+          "lat": 22.7020,
+          "lng": 75.8450,
+          "estimated_cost": 50,
+          "duration_min": 120,
+          "best_time": "Morning (10:00 - 13:00)",
+          "description": "Magnificent European-style palace featuring Versailles-inspired gates, Italian marble, and Persian rugs."
+        }
+      ],
+      "dining": [
+        {
+          "name": "Sarafa Bazaar Specialty Stalls",
+          "cuisine": "Malwi & Indori Street Food",
+          "tags": ["food", "nightlife"],
+          "price_level": "budget",
+          "estimated_cost": 300,
+          "vegetarian_friendly": true,
+          "signature_dish": "Bhutte ka Kees, Garadu, Joshi Dahi Bada & Jaleba",
+          "lat": 22.7180,
+          "lng": 75.8530,
+          "description": "Legendary flying dahi badas and grated corn delicacies served fresh under starry skies."
+        },
+        {
+          "name": "Apna Sweets (Chappan)",
+          "cuisine": "Pure Vegetarian & Snacks",
+          "tags": ["food"],
+          "price_level": "budget",
+          "estimated_cost": 250,
+          "vegetarian_friendly": true,
+          "signature_dish": "Indori Poha with Sev, Usal Poha & Gulab Jamun",
+          "lat": 22.7244,
+          "lng": 75.8839,
+          "description": "Clean, award-winning breakfast stop for Indori poha with jeeravan masala."
+        }
+      ],
+      "stays": [
+        {
+          "name": "Brilliant Convention Centre / Grand Bhagwati",
+          "type": "hotel",
+          "price_category": "mid",
+          "estimated_cost_per_night": 4200,
+          "amenities": ["Modern Rooms", "Multi-cuisine Restaurant", "Fitness Centre"],
+          "lat": 22.7533,
+          "lng": 75.8937
+        },
+        {
+          "name": "Sayaji Hotel Indore",
+          "type": "hotel",
+          "price_category": "premium",
+          "estimated_cost_per_night": 6500,
+          "amenities": ["Bowling Alley", "Pool", "Kababsville Restaurant", "Luxury Suites"],
+          "lat": 22.7516,
+          "lng": 75.8906
+        }
+      ],
+      "transport": [
+        {
+          "type": "Indore i-Bus (BRTS)",
+          "estimated_cost_base": 15,
+          "description": "Dedicated corridor buses traversing the central spine of Indore.",
+          "tip": "Very frequent and air-conditioned."
+        },
+        {
+          "type": "Auto-Rickshaw & E-Rickshaws",
+          "estimated_cost_base": 60,
+          "description": "The easiest way to get between Rajwada, Sarafa, and railway station.",
+          "tip": "Fixed fare or digital payment widely accepted."
+        }
+      ]
+    },
+    {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "tags": ["culture", "sightseeing", "food", "relaxation"],
+      "center": {"lat": 25.3176, "lng": 82.9739},
+      "attractions": [
+        {
+          "name": "Dashashwamedh Ghat Evening Ganga Aarti",
+          "category": "spiritual",
+          "tags": ["culture", "sightseeing"],
+          "lat": 25.3069,
+          "lng": 83.0104,
+          "estimated_cost": 0,
+          "duration_min": 90,
+          "best_time": "Evening (18:15 - 19:45)",
+          "description": "Grand synchronized prayer ritual with brass lamps, incense, conch shells, and floating flower diyas."
+        },
+        {
+          "name": "Sunrise Boat Ride on River Ganga",
+          "category": "nature",
+          "tags": ["nature", "culture", "relaxation"],
+          "lat": 25.3050,
+          "lng": 83.0090,
+          "estimated_cost": 350,
+          "duration_min": 120,
+          "best_time": "Dawn (05:30 - 07:30)",
+          "description": "Rowing past historic ghats from Assi Ghat to Manikarnika Ghat as the morning sun casts gold on the river."
+        },
+        {
+          "name": "Kashi Vishwanath Corridor & Temple",
+          "category": "heritage",
+          "tags": ["culture", "history"],
+          "lat": 25.3109,
+          "lng": 83.0107,
+          "estimated_cost": 0,
+          "duration_min": 120,
+          "best_time": "Early Morning",
+          "description": "Golden spire Jyotirlinga temple connected to Ganga ghats through a renovated majestic stone corridor."
+        },
+        {
+          "name": "Sarnath Deer Park & Dhamek Stupa",
+          "category": "heritage",
+          "tags": ["culture", "sightseeing", "history"],
+          "lat": 25.3811,
+          "lng": 83.0227,
+          "estimated_cost": 25,
+          "duration_min": 180,
+          "best_time": "Morning (10 km from ghats)",
+          "description": "Where Lord Buddha preached his first sermon; site of the Ashoka Pillar with India's national emblem."
+        }
+      ],
+      "dining": [
+        {
+          "name": "Kashi Chat Bhandar",
+          "cuisine": "Banarasi Chaat",
+          "tags": ["food", "culture"],
+          "price_level": "budget",
+          "estimated_cost": 180,
+          "vegetarian_friendly": true,
+          "signature_dish": "Tamatar Chaat, Palak Chaat & Gulab Jamun",
+          "lat": 25.3101,
+          "lng": 83.0035,
+          "description": "World-famous street food spot serving piping-hot Banarasi tomato chaat in clay kulhads."
+        },
+        {
+          "name": "Blue Lassi Shop",
+          "cuisine": "Artisan Lassi",
+          "tags": ["food"],
+          "price_level": "budget",
+          "estimated_cost": 120,
+          "vegetarian_friendly": true,
+          "signature_dish": "Pomegranate Pistachio Malai Lassi",
+          "lat": 25.3117,
+          "lng": 83.0135,
+          "description": "Legendary alleyway hole-in-the-wall serving thick hand-churned lassi in earthen pots with rabdi toppings."
+        }
+      ],
+      "stays": [
+        {
+          "name": "BrijRama Palace Heritage Hotel",
+          "type": "heritage",
+          "price_category": "premium",
+          "estimated_cost_per_night": 22000,
+          "amenities": ["Private Boat Access", "Ghat Facing", "Traditional Sitar Recitals"],
+          "lat": 25.3055,
+          "lng": 83.0100
+        },
+        {
+          "name": "Zostel Varanasi / Moustache Hostel",
+          "type": "hostel",
+          "price_category": "budget",
+          "estimated_cost_per_night": 750,
+          "amenities": ["Rooftop Cafe", "Walking Tours", "AC Dorms"],
+          "lat": 25.3080,
+          "lng": 83.0020
+        }
+      ],
+      "transport": [
+        {
+          "type": "Cycle Rickshaw & Walking",
+          "estimated_cost_base": 50,
+          "description": "Cars cannot enter old ghat alleys; cycle rickshaws and walking are the best way to explore.",
+          "tip": "Comfortable slip-on walking shoes recommended."
+        },
+        {
+          "type": "Hand-Rowed Wooden Boats",
+          "estimated_cost_base": 250,
+          "description": "Traditional method of traversing across the ghats and crossing to sandy eastern bank.",
+          "tip": "Negotiate fixed rate before boarding at Assi or Dashashwamedh Ghat."
+        }
+      ]
+    }
+  ]
+}
